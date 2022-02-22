@@ -58,12 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				CB3DF30A27C5270400F5F2E4 /* BitcoinPriceApp.swift */,
-				CB3DF30C27C5270400F5F2E4 /* BitcoinPriceView.swift */,
+				CB3DF32127C5501700F5F2E4 /* Views */,
 				CB3DF30E27C5270600F5F2E4 /* Assets.xcassets */,
 				CB3DF31027C5270600F5F2E4 /* Preview Content */,
 				CB3DF31A27C5299C00F5F2E4 /* Models */,
 				CB3DF31D27C52CBA00F5F2E4 /* ViewModels */,
-				CB3DF31E27C5417C00F5F2E4 /* CoindeskAPIService.swift */,
+				CB3DF32027C5500E00F5F2E4 /* Services */,
 			);
 			path = BitcoinPrice;
 			sourceTree = "<group>";
@@ -90,6 +90,22 @@
 				CB3DF31B27C52A7B00F5F2E4 /* PriceViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CB3DF32027C5500E00F5F2E4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CB3DF31E27C5417C00F5F2E4 /* CoindeskAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CB3DF32127C5501700F5F2E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB3DF30C27C5270400F5F2E4 /* BitcoinPriceView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
